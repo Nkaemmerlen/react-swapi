@@ -4,3 +4,31 @@ h1 {
   margin-top: 0;
   color: white;
 }
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: clamp(400px, 80vw, 1200px);
+  margin: auto;
+  justify-content: center;
+}
+#classDiv, #classDiv1 {
+  border-radius: 5px;
+  background-color: rgb(19,96,109);
+  width: 200px;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  padding: 15px;
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+}
+#classDiv:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.link {
+  color: white;
+}
+
