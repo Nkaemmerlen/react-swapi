@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import Starships from './pages/Starships/Starships';
-import { useLocation } from 'react-router-dom';
 import StarshipPage from './pages/StarshipPage/StarshipPage';
- 
+
 function App() {
   return (
     <>
